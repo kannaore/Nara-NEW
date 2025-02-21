@@ -235,7 +235,7 @@ def toggle_results_panel():
     fig.tight_layout()
     draw_distribution(np.mean(avg_prices), np.std(avg_prices))
 
-# --- [새로운 함수 - 페이드 아웃 메시지 창 표시 함수 (페이드 아웃 제거)] ---
+# - [새로운 함수 - 페이드 아웃 메시지 창 표시 함수 (페이드 아웃 제거)] -
 # def show_fading_message(message):
 #     global root, canvas_widget
 #
